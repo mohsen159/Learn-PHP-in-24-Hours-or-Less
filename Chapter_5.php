@@ -2,8 +2,8 @@
 
 #how to handel exaption 
   
-   // TODO: stuf too buy home pass_by_ref
-  /*try 
+   // TODO: stuf too buy home pass_by_ref    
+  /*try kjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkj
   {
     $exp = throw new 
      Exception("Error Processing Request", 109);
