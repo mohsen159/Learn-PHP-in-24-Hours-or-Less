@@ -7,7 +7,7 @@ $v = 10;
 
 do {
       if ($v==9) {
-          break 1;E#
+          break 1;
           echo 'test ';  
       }
       echo $v . "\n" ; 
