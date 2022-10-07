@@ -2,8 +2,7 @@
 
 #how to handel exaption 
   
-
-
+   // TODO: stuf too buy home pass_by_ref
   /*try 
   {
     $exp = throw new 
