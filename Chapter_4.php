@@ -31,7 +31,7 @@
    }
    static function here ()
    {
-      echo "shit nothing " ; 
+      echo "shit nothing hore " ; 
    }
    function __construct($value )
    {
