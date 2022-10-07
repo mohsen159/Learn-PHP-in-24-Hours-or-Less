@@ -1,18 +1,7 @@
 <?php
 
 #how to handel exaption 
-  
-   // TODO: stuf too buy home pass_by_ref    
-  /*try kjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkj
-  {
-    $exp = throw new 
-     Exception("Error Processing Request", 109);
-     
 
-  }
-  catch (Exception $e)       {
-    echo "Error: "  . $e->getCode() . "\n";   
-  }  */
 try {
 
     /// wtf i do here 
