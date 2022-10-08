@@ -80,11 +80,37 @@ class humann {
     public $NAME = 'humann';
     public $DESCRIPTION = 'description';
 }
-$mohe = new humann();
+/*$mohe = new humann();
 foreach($mohe as $key => $value) {  
    echo  $key . ': ' . $value . "\n";
+}*/
+
+#The Design Patterns
+//print_r($_SERVER['HTTP_USER_AGENT']); 
+#The Singleton Pattern
+/*
+what i understand of this is ze can creat only on instens of a class in the hole program using 
+getinstans and making the constractuer private  */
+ 
+class Singleton {
+    
+    private $id = 12345  ; 
+    private static $instans  = null; 
+    private function __construct() {}
+    private function __clone(){}  
+    public function getinstans() {
+        if(self::$instans == null){ 
+            self::$instans = new Singleton();
+        }
+        return self::$instans;
+    }
+    public function log($message){  
+        echo $message. " $this->id\n";
+    }
 }
 
+$ob::log("shit") ; 
+#The Factory Pattern
 exit();
 
 ?>
