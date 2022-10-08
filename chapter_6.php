@@ -89,7 +89,7 @@ foreach($mohe as $key => $value) {
 //print_r($_SERVER['HTTP_USER_AGENT']); 
 #The Singleton Pattern
 /*
-what i understand of this is ze can creat only on instens of a class in the hole program using 
+what i understand of this is  can creat only on instens of a class in the hole program using 
 getinstans and making the constractuer private  */
  
 class Singleton {
@@ -98,19 +98,27 @@ class Singleton {
     private static $instans  = null; 
     private function __construct() {}
     private function __clone(){}  
-    public function getinstans() {
+    static function getinstans() {
         if(self::$instans == null){ 
             self::$instans = new Singleton();
         }
         return self::$instans;
     }
     public function log($message){  
+        $this->id += 90 ; 
         echo $message. " $this->id\n";
     }
 }
-
-$ob::log("shit") ; 
+#$ob = Singleton::getinstans();
+#$ob->log("shit") ; 
 #The Factory Pattern
+
+#The Factory Pattern 
+#The Observer Pattern
+
+
+
+
 exit();
 
 ?>
